@@ -1,0 +1,156 @@
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+header,
+section, 
+footer {
+	max-width: 1200px;
+}
+
+/*_____HERO_____*/
+.hero {
+	width: 100%;
+	height: 779px;
+
+	background: url(../images/hero-background.jpg);
+}
+
+/*-----header-----*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 19px;
+}
+
+.header-logotype {
+	display: flex;
+	margin: 0;
+}
+
+.header-logotype__icon {
+	width: 70px;
+	height: 60px;
+	margin-right: 15px;
+}
+
+.header-logotype__text {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 60px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #F7F7F7;
+}
+
+.header-nav {
+	margin: 0;
+	width: 480px;
+}
+
+.header-nav__list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.header-nav__item {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 60px;
+	color: #F7F7F7;
+}
+
+.header-nav__item:first-child {
+	margin-left: 0;
+	width: 50px;
+}
+
+.header-nav__item:last-child {
+	width: 120px;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 0;
+
+	font-size: 23px;
+	line-height: 27px;
+	font-family: 'Roboto', sans-serif;
+	color: #F7F7F7;
+
+	border: 2px solid #CD6326;
+	border-radius: 5px;
+}
+
+.header-nav__link{
+	font-size: 23px;
+	line-height: 60px;
+	color: #F7F7F7;
+}
+
+.header-nav__link--search {
+	content: url(../images/search.svg);
+}
+
+.header-nav__link--btn {
+	padding-top: 5px;
+}
+
+/*-----survival-----*/
+.survival {
+	height: 700px;
+	padding-top: 120px;
+}
+
+.survival__title {
+	margin: 0;
+	
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 72px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	color: #CD6326;
+}
+
+.survival__text {
+	width: 274px;
+	height: 108px;
+	margin: 51px 0 49px 0;
+
+	font-size: 18px;
+	line-height: 27.5px;
+	color: #F7F7F7;
+}
+
+.survival__btn {
+	width: 160px;
+	height: 60px;
+
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 27px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #F7F7F7;
+
+	background: #CD6326;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
