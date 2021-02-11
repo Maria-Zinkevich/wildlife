@@ -14,8 +14,7 @@
 }
 
 header,
-section, 
-footer {
+section {
 	max-width: 1200px;
 }
 
@@ -66,15 +65,10 @@ footer {
 }
 
 .header-nav__item {
-	list-style-type: none;
 	display: flex;
 	align-items: center;
-	text-align: center;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	line-height: 60px;
-	color: #F7F7F7;
+
+	list-style-type: none;
 }
 
 .header-nav__item:first-child {
@@ -326,4 +320,119 @@ footer {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #F7F7F7;
+}
+
+/*_____FOOTER_____*/
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 360px;
+	padding: 150px 120px 149px 120px;
+
+	background: url(../images/footer-background.jpg);
+}
+
+.footer-logotype {
+	display: flex;
+	margin: 0;
+}
+
+.footer-logotype__icon {
+	width: 70px;
+	height: 60px;
+	margin-right: 15px;
+}
+
+.footer-logotype__text {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 60px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #F7F7F7;
+}
+
+.footer-nav {
+	width: 480px;
+	margin: 0;
+	margin-left: 12px;
+}
+
+.footer-nav__list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.footer-nav__item {
+	display: flex;
+	align-items: center;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.footer-nav__item:first-child {
+	margin-left: 2px;
+
+}
+
+.footer-nav__item:last-child {
+	margin-right: 0;
+}
+
+.footer-nav__link{
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 60px;
+	color: #F7F7F7;
+}
+
+.footer-network__nav {
+	width: 240px;
+	height: 40px;
+	margin: 0;
+}
+
+.footer-network__list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.footer-network__item {
+	list-style-type: none;
+}
+
+.footer-network__item:first-child {
+	margin-left: 0;
+}
+
+.footer-network__item:last-child {
+	margin-right: 0;
+}
+
+.footer-network__link {
+	width: 40px;
+	height: 40px;
+}
+
+.footer-network__link--facebook::before {
+	content: url(../images/faceboook.svg);
+}
+
+.footer-network__link--instagram {
+	content: url(../images/instagram.svg);
+}
+
+.footer-network__link--pinterest {
+	content: url(../images/pinterest.svg);
+}
+
+.footer-network__link--youtube {
+	width: 40px;
+
+	content: url(../images/youtube.svg);
 }
