@@ -248,6 +248,7 @@ section {
 
 	width: 300px;
 	margin: 0;
+
 	transition: .4s;
 }
 
@@ -475,6 +476,7 @@ section {
 	width: 40px;
 	height: 40px;
 }
+
 .footer-network__link:hover {
 	transform: scale(1.2);
 }
