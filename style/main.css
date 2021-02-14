@@ -126,6 +126,46 @@ section {
 	padding-top: 5px;
 }
 
+/*-----gamburger-menu-----*/
+.header__gamburger-menu {
+	position: absolute;
+	right: 0;
+	top: 26px;
+
+	display: none;
+	width: 50px;
+	height: 6px;
+	margin-right: 2.5em;
+
+	background-color: #F7F7F7;
+}
+
+.header__gamburger-menu:before {
+	content:'';
+
+	position: absolute;
+	top: 16px;
+
+	width: 50px;
+	height: 6px;
+	margin-right: 2.5em;
+
+	background-color: #F7F7F7;
+}
+
+.header__gamburger-menu:after {
+	content:'';
+
+	position: absolute;
+	top: 32px;
+
+	width: 50px;
+	height: 6px;
+	margin-right: 2.5em;
+
+	background-color: #F7F7F7;
+}
+
 /*-----survival-----*/
 .survival {
 	height: 700px;
