@@ -16,6 +16,7 @@
 header,
 section {
 	max-width: 1200px;
+    width: 90%;
 }
 
 /*_____HERO_____*/
@@ -24,6 +25,11 @@ section {
 	height: 779px;
 
 	background: url(../images/hero-background.jpg);
+    background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;  
+	background-size: cover;
+	background-color: #464646;
 }
 
 /*-----header-----*/
@@ -246,10 +252,11 @@ section {
 .latest-articles__slide {
 	position: relative;
 
-	width: 300px;
+	max-width: 300px;
 	margin: 0;
 
 	transition: .4s;
+    overflow: hidden;
 }
 
 .latest-articles__slide:hover {
@@ -318,9 +325,9 @@ section {
 }
 
 .get-notified__form {
-	width: 660px;
+    display: flex;
+	max-width: 660px;
 	height: 60px;
-	display: flex;
 }
 
 .get-notified__email {
@@ -428,14 +435,13 @@ section {
 
 .footer-nav__item:first-child {
 	margin-left: 2px;
-
 }
 
 .footer-nav__item:last-child {
 	margin-right: 0;
 }
 
-.footer-nav__link{
+.footer-nav__link {
 	font-weight: 400;
 	font-size: 23px;
 	line-height: 60px;
