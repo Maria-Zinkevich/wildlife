@@ -18,6 +18,10 @@
 		display: none;
 	}
 
+    .header__gamburger-menu {
+		display: block;
+	}
+
 	.latest-articles__sliders {
         justify-content: center;
 		width: 100%;
@@ -59,10 +63,15 @@
 		font-size: 28px;
 	}
 
+    .header__gamburger-menu {
+		margin-right: 1em;
+	}
+
 	.footer-nav__list {
 		flex-direction: column;
 		justify-content: center;
 	}
+    
 	.footer-nav__item {
 		margin: 0;
 	}
