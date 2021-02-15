@@ -29,7 +29,7 @@ section {
 	background-repeat: no-repeat;
 	background-position: center center;  
 	background-size: cover;
-	background-color: #464646;
+	background-color: #02160b;
 }
 
 /*-----header-----*/
@@ -431,6 +431,7 @@ section {
 	padding: 150px 120px 149px 120px;
 
 	background: url(../images/footer-background.jpg);
+    background-color: #181617;
 }
 
 .footer-logotype {
